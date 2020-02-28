@@ -10,10 +10,10 @@ public class RentalService {//servico de aluguel
 	private Double pricePerHour; //preço por hora
 	
 	
-	private BrazilTaxService taxService;
+	private TaxService taxService;
 
 	//nao declarei o construtor padrao, isso torna obrigatoria informar
-	public RentalService(Double pricePerDay, Double pricePerHour, BrazilTaxService taxService) {
+	public RentalService(Double pricePerDay, Double pricePerHour, TaxService taxService) {
 		
 		this.pricePerDay = pricePerDay;
 		this.pricePerHour = pricePerHour;
